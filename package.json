@@ -1,0 +1,32 @@
+{
+  "name": "awt-theme",
+  "version": "1.0.0",
+  "description": "UCI OIT AWT's software suite theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aapowers/awt-theme.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "scss",
+    "js",
+    "theme",
+    "anteater",
+    "UCI"
+  ],
+  "author": "Alissa Powers <aapowers@uci.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aapowers/awt-theme/issues"
+  },
+  "homepage": "https://github.com/aapowers/awt-theme#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  }
+}

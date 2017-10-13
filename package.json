@@ -1,6 +1,6 @@
 {
   "name": "awt-theme",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "UCI OIT AWT's software suite theme",
   "main": "index.js",
   "scripts": {

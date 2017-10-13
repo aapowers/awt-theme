@@ -1,0 +1,108 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// Colors
+$uciblue: #0064a4;
+$uciblue-dark: #005994;
+$uciblue-darker: darken($uciblue, 10%);
+$uciblue-lighter: lighten($uciblue, 10%);
+$ucigold: #fed240;
+$ucigold-dark: #f1c11f;
+$ucigold-darker: darken($ucigold, 10%);
+$ucigold-lighter: lighten($ucigold, 10%);
+
+$purple: #723e98;
+$purple-light: #eee5fb;
+
+$blue: #1489a9;
+$blue-light: #f2faff;
+
+$green: #4f773e;
+$green-light: #eaffeb;
+
+$orange: #c96620;
+$orange-light: #f9f0eb;
+
+$red: #b81137;
+$red-light: #ffe5e7;
+
+$custom-gray-medium: #6d7768;
+
+$gray-light: #eee;
+$gray-medium: #aaa;
+$gray-dark: #444;
+
+$theme-colors: (
+        primary: $uciblue,
+        secondary: $gray-dark,
+        success: $green,
+        info: $blue,
+        warning: $orange,
+        danger: $red,
+        light: $gray-100,
+        dark: $gray-800
+);
+
+// Backward compatibility
+$error-color: $red;
+
+// Our variables
+$nav-tab-selected: #007BC9;
+
+$list-group-action-color: $black;
+$card-bg: $gray-light;
+$card-cap-bg: #f9f9f9;
+$card-border-color: $gray-medium;
+
+// Font config
+$font-size-base: 0.8125rem;
+
+$font-family-sans-serif: "Lato";
+$headings-font-family: "Lato";
+$font-family-base: $font-family-sans-serif;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: #f7f7f7;
+$body-color: #444;
+$inverse-bg: $gray-dark;
+$inverse-color: $gray-light;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color: $uciblue;
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-primary-color: $white;
+$btn-primary-bg: $uciblue;
+$btn-transition: 0;
+
+// Navbar config
+$navbar-padding-x: $spacer;
+$navbar-padding-y: 0;
+
+$navbar-toggler-padding-x: 0;
+$navbar-toggler-padding-y: 0;
+$navbar-toggler-font-size: $font-size-sm;
+
+// Using rgba instead of $white because of navbar-toggler
+$navbar-dark-color: rgba(255, 255, 255, 255);
+$navbar-dark-hover-color: $white;
+$navbar-dark-active-color: $white;
+$navbar-dark-disabled-color: $white;
+$navbar-dark-toggler-border-color: rgba(0,0,0,0);
+$navbar-dark-toggler-icon-bg: str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"), "#", "%23");
+
+// Nav config
+$nav-link-padding: .7em 1.5em;
+
+// Badges
+$badge-success-bg: theme-color("success");
